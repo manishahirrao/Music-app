@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import Artist from "./Pages/Artist";
 import { Route, Routes } from "react-router";
 import Event from "./Pages/event";
