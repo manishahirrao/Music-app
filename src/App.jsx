@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
-import Artist from "./Pages/Artist";
+import Artists from "./pages/Artists";
 import { Route, Routes } from "react-router";
-import Event from "./Pages/event";
+import Event from "./pages/event";
 import Footer from "./Components/Footer";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/artists" element={<Artist />} />
+          <Route path="/artists" element={<Artists />} />
           <Route path="/event" element={<Event />} />
         </Routes>
         <hr className="bg-white my-8" />
