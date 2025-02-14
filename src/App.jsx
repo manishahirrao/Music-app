@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
 import Artists from "./pages/Artists";
 import { Route, Routes } from "react-router";
-import Event from "./pages/event";
+import Event from "./pages/Event";
 import Footer from "./Components/Footer";
 function App() {
   return (
